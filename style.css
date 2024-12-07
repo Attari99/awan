@@ -1,0 +1,270 @@
+
+
+
+*{
+    margin: 0;
+}
+
+
+#firstheader{
+    background-color: black;
+    width:98.6vw;
+    height: 7vh;
+    display: flex;
+    color: white;
+    justify-content: center;
+    /* border: 1px solid white; */
+    align-items: center;
+    padding-top: 2vh;
+}
+#firstheader i{
+    width: 1.4vw;
+    
+    
+}
+#firstheader #first{
+    margin:0vh 20vw 0vh 3vw;
+    display: flex;
+    height: 3vh;
+    
+    /* border: 1px solid white; */
+    
+}
+#first i{
+    margin-left: 1vw;
+    color: #ffffff;
+    margin-top: -1vh;
+}
+#firstheader p{
+    /* border: 1px solid white; */
+    width: 20vw;
+    height: 5vh;
+    justify-content: center;
+    
+}
+#firstheader p:hover{
+    color: #007bff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0vh;
+    z-index: 10;
+
+}
+
+
+.logo img {
+    height: 5vw;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+    box-shadow: 0px 0px 1px black;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    list-style: none;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 1000;
+    width: 10vw;
+    text-align: center;
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 5px 10px;
+}
+
+.order-btn {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.order-btn:hover {
+    background-color: #0056b3;
+}
+#bodybg,#bodybg img{
+    width: 98.6vw;
+    height: 90vh;
+
+}
+#bodytext{
+    position: absolute;
+    top: 60%;
+    left: 37%;
+}
+#bodytext h1{
+    font-size: 6vw ;
+    margin-left:5vw;
+    color: #01c231;
+    font-family: "Dancing Script", cursive;
+    text-shadow:1px 1px 15px white;
+}
+#bodytext h1:hover{
+    color: white;
+    text-shadow:1px 1px 15px #01c231;
+
+}
+
+
+#bodytext p{
+    font-size: 6vh;
+    letter-spacing: 1vw;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+#bodytext p:hover{
+    color: black;
+    background-color: #ffffff9d;
+    border-radius: 50vh;
+}
+#about{
+    display: flex;
+    margin-top: 15vh;
+
+}
+#about #text{
+    width: 48.3vw;
+    padding: 2vw 7vw ;
+margin-right: 15vh;
+/* border: 1px solid black; */
+margin-left: 2vw;
+transition: 0.5;
+
+
+}
+#about #text:hover {
+    box-shadow:0px 0px 50px 30px gray ;
+box-shadow:0px 0px 50px 30px gray  ;
+box-shadow:0px 0px 50px 30 gray ;
+height: 60vh;
+transition: 0.8s;
+}
+#text h3{
+font-size: 2vw;
+margin-bottom: 2vh;
+}
+#text h1{
+    font-size: 3vw;
+    margin-bottom: 3vh;
+}
+#text p{
+    
+    line-height: 4vh;
+    margin-bottom: 1vh;
+}
+#text a{
+    text-decoration: none;
+    color: #01c231;
+
+}
+#text a:hover{
+    color: #000;
+    transition: 0.5s;
+    
+}
+#about #img{
+    width: 35vw;
+    /* padding: 2vw 7vw ; */
+    border: 1px solid black;
+    height: 50vh;
+    overflow: hidden;
+    
+}
+#img img{
+    width: 35vw;
+    
+}
+#img:hover img{
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+
+#product{
+    width: 98.6vw;
+    display: flex;
+    margin-top: 15vh;
+    
+}
+#product #text{
+    width: 40.3vw;
+    padding-left: 5VW;
+    
+}
+#product #text:hover {
+    box-shadow:0px 0px 50px 30px #01c231 ;
+box-shadow:0px 0px 50px 30px #01c231  ;
+box-shadow:0px 0px 50px 30px #01c231 ;
+height: 45vh;
+transition: 0.8s;
+
+
+
+}
+
+#text h2{
+    letter-spacing: 0.8vw;
+    margin-top: 15vh;
+    margin-bottom: 1vh;
+
+}
+
+#product #img{
+    width: 35vw;
+    height: 50vh;
+    margin-left: 10vw;
+    overflow: hidden;
+    margin-right: 10vw;
+    border: 1px solid black;
+    transition:  0.5s;
+}
